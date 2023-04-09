@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DangKy</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+
+<body>
+    <form id="form" action="" method="post">
+        <div id="Khung">
+            <div class="DK">Đăng ký tài khoản</div><br>
+            <div style="margin-left: 30px; float:left;">
+                <label>Họ</label>
+                <input type="text" size="20" placeholder="Họ" style="height:20px;" name="Ho" id="Ho">
+                <span id="HoError"></span>
+                <label>Tên</label>
+                <input type="text" size="20" placeholder="Tên" style="height: 20px;" name="Ten" id="Ten">
+                <span id="TenError"></span>
+                <br><br>
+                <label>Ngày Sinh</label>
+                <input type="datetime" size="20" placeholder="yyyy-mm-dd" style="height: 20px;" name="Ngaysinh" id="Ngaysinh">
+                <span id="NSError"></span>
+                <label>Giới Tính</label>
+                <input type="radio" name="comment" value="Nam" id="comment" />Nam
+                <input type="radio" name="comment" value="Nữ" id="comment" />Nữ
+                <br><br>
+                <label>Tên Tài Khoản</label><br>
+                <!--i class="fa-solid fa-user" style="color: #d8dce4;"></i-->
+                <input type="text" size="55" placeholder="Nhập email" style="height: 20px;">
+                <span id="TKError"></span><br>
+                <p>Hoặc số điện thoại</p>
+                <select>
+                    <optgroup>
+                        <option>+44</option>
+                        <option>+84</option>
+                        <option>+80</option>
+                    </optgroup>
+                </select>
+                <input type="text" size="40" placeholder="Nhập số điện thoại" style="height: 20px;">
+                <br><br>
+                <label>Mật Khẩu</label><br>
+                <input type="password" size="55" placeholder="Nhập mật khẩu" style="height:20px;" name="Pass" id="Pass">
+                <span id="PassError"></span>
+                <br><br>
+                <label>Xác Nhận Lại Mật Khẩu</label><br>
+                <input type="password" size="55" placeholder="Xác nhận mật khẩu" style="height: 20px;" name="pass" id="pass">
+                <span id="passError"></span><br><br>
+                <center><input type="submit" value="Tạo Tài Khoản" style="background-color: blueviolet;padding:auto"></center>
+            </div>
+        </div>
+    </form>
+
+</body>
